@@ -2,6 +2,9 @@
 
 Welcome to the **Blog Project** repository! This is a single-page blog website built using **React** with **React Router** for seamless navigation and routing between different sections of the application.
 
+**You can view the completed site by going to this link:
+https://react-blog-project-2534.netlify.app/**
+
 ## Purpose
 
 The Blog Project is designed to provide a clean and engaging user experience for blog readers and creators. It is a modern implementation of a blog site where you can navigate between pages without refreshing the browser, thanks to React's dynamic routing capabilities.
