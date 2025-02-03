@@ -89,7 +89,7 @@ const ContactFormWithMap = () => {
                   data-original="#000000"
                 />
               </svg>
-              <a href="javascript:void(0)" className="text-sm ml-3">
+              <a href="#" className="text-sm ml-3">
                 <strong>info@example.com</strong>
               </a>
             </li>
@@ -106,7 +106,7 @@ const ContactFormWithMap = () => {
                   data-original="#000000"
                 ></path>
               </svg>
-              <a href="javascript:void(0)" className="text-sm ml-3">
+              <a href="#" className="text-sm ml-3">
                 <strong>+158 996 888</strong>
               </a>
             </li>

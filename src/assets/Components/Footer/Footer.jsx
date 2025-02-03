@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="font-sans tracking-wide bg-gray-50 px-10 pt-12 pb-6">
       <div className="flex flex-wrap justify-between gap-10">
         <div className="max-w-md">
-          <a href="javascript:void(0)">
+          <a href="#">
             <img
               src="https://readymadeui.com/readymadeui.svg"
               alt="logo"
@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
           <ul className="mt-10 flex space-x-5">
             <li>
-              <a href="javascript:void(0)">
+              <a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="fill-blue-600 w-8 h-8"
@@ -34,7 +34,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)">
+              <a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-8 h-8"
@@ -56,7 +56,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)">
+              <a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-8 h-8"
@@ -106,7 +106,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)">
+              <a href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="w-8 h-8"
@@ -135,7 +135,7 @@ const Footer = () => {
           <ul className="mt-6 space-y-4">
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Web Development
@@ -143,7 +143,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Pricing
@@ -151,7 +151,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Support
@@ -159,7 +159,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Client Portal
@@ -167,7 +167,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Resources
@@ -183,7 +183,7 @@ const Footer = () => {
           <ul className="space-y-4 mt-6">
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Hubspot
@@ -191,7 +191,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Integration Services
@@ -199,7 +199,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Marketing Glossar
@@ -207,7 +207,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 UIPath
@@ -224,7 +224,7 @@ const Footer = () => {
           <ul className="space-y-4 mt-6">
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 About us
@@ -232,7 +232,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Careers
@@ -240,7 +240,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Blog
@@ -248,7 +248,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Portfolio
@@ -256,7 +256,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Events
@@ -273,7 +273,7 @@ const Footer = () => {
           <ul className="space-y-4 mt-6">
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 FAQ
@@ -281,7 +281,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Partners
@@ -289,7 +289,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Sitemap
@@ -297,7 +297,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 Contact
@@ -305,7 +305,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href="#"
                 className="hover:text-gray-800 text-gray-600 text-sm"
               >
                 News
@@ -321,7 +321,7 @@ const Footer = () => {
         <ul className="md:flex md:space-x-6 max-md:space-y-2">
           <li>
             <a
-              href="javascript:void(0)"
+              href="#"
               className="hover:text-gray-800 text-gray-600 text-sm"
             >
               Terms of Service
@@ -329,7 +329,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="#"
               className="hover:text-gray-800 text-gray-600 text-sm"
             >
               Privacy Policy
@@ -337,7 +337,7 @@ const Footer = () => {
           </li>
           <li>
             <a
-              href="javascript:void(0)"
+              href="#"
               className="hover:text-gray-800 text-gray-600 text-sm"
             >
               Security

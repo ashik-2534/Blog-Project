@@ -1,17 +1,40 @@
+import { useEffect } from "react";
 import { NavLink } from "react-router";
 
 const Navbar = () => {
+  useEffect(() => {
+    const toggleOpen = document.getElementById("toggleOpen");
+    const toggleClose = document.getElementById("toggleClose");
+    const collapseMenu = document.getElementById("collapseMenu");
+
+    const handleClick = () => {
+      if (collapseMenu.style.display === "block") {
+        collapseMenu.style.display = "none";
+      } else {
+        collapseMenu.style.display = "block";
+      }
+    };
+
+    toggleOpen.addEventListener("click", handleClick);
+    toggleClose.addEventListener("click", handleClick);
+
+    return () => {
+      toggleOpen.removeEventListener("click", handleClick);
+      toggleClose.removeEventListener("click", handleClick);
+    };
+  }, []);
+
   return (
     <header className="flex shadow-md py-4 px-4 sm:px-10 bg-white font-[sans-serif] min-h-[70px] tracking-wide relative z-50">
       <div className="flex flex-wrap items-center justify-between gap-5 w-full">
-        <a href="javascript:void(0)" className="max-sm:hidden">
+        <a href="#" className="max-sm:hidden">
           <img
             src="https://readymadeui.com/readymadeui.svg"
             alt="logo"
             className="w-36"
           />
         </a>
-        <a href="javascript:void(0)" className="hidden max-sm:block">
+        <a href="#" className="hidden max-sm:block">
           <img
             src="https://readymadeui.com/readymadeui-short.svg"
             alt="logo"
@@ -45,7 +68,7 @@ const Navbar = () => {
 
           <ul className="lg:flex gap-x-5 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
             <li className="mb-6 hidden max-lg:block">
-              <a href="javascript:void(0)">
+              <a href="#">
                 <img
                   src="https://readymadeui.com/readymadeui.svg"
                   alt="logo"
@@ -54,27 +77,50 @@ const Navbar = () => {
               </a>
             </li>
             <li className="max-lg:border-b border-gray-300 max-lg:py-3 px-3">
-              <NavLink to="/"
-                className={({isActive}) => isActive ? "text-[#007bff] font-semibold text-[15px]":"hover:text-[#007bff] block font-semibold text-[15px]"}
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#007bff] font-semibold text-[15px]"
+                    : "hover:text-[#007bff] block font-semibold text-[15px]"
+                }
               >
                 Home
               </NavLink>
             </li>
             <li className="max-lg:border-b border-gray-300 max-lg:py-3 px-3">
-              <NavLink to="/about"
-                className={({isActive}) => isActive ? "text-[#007bff] font-semibold text-[15px]":"hover:text-[#007bff] block font-semibold text-[15px]"}              >
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#007bff] font-semibold text-[15px]"
+                    : "hover:text-[#007bff] block font-semibold text-[15px]"
+                }
+              >
                 About
               </NavLink>
             </li>
             <li className="max-lg:border-b border-gray-300 max-lg:py-3 px-3">
-              <NavLink to="/blogs"
-                className={({isActive}) => isActive ? "text-[#007bff] font-semibold text-[15px]":"hover:text-[#007bff] block font-semibold text-[15px]"}              >
+              <NavLink
+                to="/blogs"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#007bff] font-semibold text-[15px]"
+                    : "hover:text-[#007bff] block font-semibold text-[15px]"
+                }
+              >
                 Blogs
               </NavLink>
             </li>
             <li className="max-lg:border-b border-gray-300 max-lg:py-3 px-3">
-              <NavLink to ="/contact"
-                className={({isActive}) => isActive ? "text-[#007bff] font-semibold text-[15px]":"hover:text-[#007bff] block font-semibold text-[15px]"}              >
+              <NavLink
+                to="/contact"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-[#007bff] font-semibold text-[15px]"
+                    : "hover:text-[#007bff] block font-semibold text-[15px]"
+                }
+              >
                 Contact
               </NavLink>
             </li>
