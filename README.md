@@ -75,7 +75,7 @@ To use or modify this project, follow these steps:
     npm run build
    ```
 
-   The dist folder is the version of your app ready to be deployed to a web server (e.g., Netlify, Vercel, or any hosting service). You typically upload this folder's contents for hosting your website in production.
+   The dist folder is the version of your app ready to be deployed to a web server (e.g., Netlify, Vercel, or any hosting service). You typically upload this folder contents for hosting your website in production.
 
 ---
 
